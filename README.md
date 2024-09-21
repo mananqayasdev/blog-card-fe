@@ -10,7 +10,7 @@ This component is made with plan HTML and CSS, using custom variables for design
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://qr-code.mananqayas.com/)
+- Live Site URL: [Add live site URL here](https://blog-card.mananqayas.com/)
 
 ## My process
 
@@ -24,7 +24,7 @@ This component is made with plan HTML and CSS, using custom variables for design
 
 ## Author
 
-- Website - [Manan Qayas](https://www.your-site.com)
+- Website - [Manan Qayas](https://www.mananqayas.com)
 - Twitter - [@mananqayas](https://www.twitter.com/mananqayas)
 
 ## Acknowledgments
