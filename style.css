@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background: var(--color-yellow);
+}
+:root {
+  /* Colors */
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-gray-950: hsl(0, 0%, 7%);
+  --color-gray-500: hsl(0, 0%, 42%);
+
+  /* Typography */
+
+  --font-figtree-extraBold: 800;
+  --font-figtree-medium: 500;
+  --font-figtree-bold: 700;
+  --box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+
+  /* Spacing */
+
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+
+  /* Borders */
+
+  --border-radius-1: 10px;
+  --border-radius-2: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 384px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.card-wrapper {
+  background: var(--color-white);
+  box-shadow: 8px 8px 0 0 black;
+  border-radius: var(--border-radius-2);
+  border: 1px solid var(--color-gray-950);
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+}
+.blog-featured-image {
+  width: 100%;
+  border-radius: var(--border-radius-1);
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-150);
+  width: 100%;
+}
+.blog-category {
+  font-size: 12px;
+  font-weight: var(--font-figtree-extraBold);
+  background-color: var(--color-yellow);
+  align-self: flex-start;
+  padding: var(--spacing-50, 4px) var(--spacing-150, 12px);
+  border-radius: var(--spacing-50, 4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-published-date {
+  font-weight: var(--font-figtree-medium);
+  color: var(--color-gray-950);
+  font-size: 12px;
+  line-height: 150%; /* 18px */
+}
+
+.blog-title {
+  font-weight: var(--font-figtree-extraBold);
+  font-size: 20px;
+  color: var(--color-gray-950);
+  transition: color 0.3s ease;
+}
+.excerpt {
+  font-weight: var(--font-figtree-medium);
+  line-height: 150%; /* 21px */
+  font-size: 14px;
+  color: var(--color-gray-500);
+}
+.author {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-150);
+  color: var(--color-gray-950);
+  font-weight: var(--font-figtree-bold);
+  line-height: 150%; /* 21px */
+}
+.author img {
+  width: 32px;
+}
+.blog-title:hover {
+  color: var(--color-yellow);
+  cursor: pointer;
+}
